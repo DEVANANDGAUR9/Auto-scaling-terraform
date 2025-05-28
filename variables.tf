@@ -19,7 +19,7 @@ variable "min_size" {
 variable "max_size" {
   description = "Maximum number of instances in the Auto Scaling Group"
   type        = number
-  default     = 2
+  default     = 3
 }
 
 variable "desired_capacity" {
