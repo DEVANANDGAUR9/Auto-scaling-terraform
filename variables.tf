@@ -25,7 +25,7 @@ variable "max_size" {
 variable "desired_capacity" {
   description = "Desired number of instances in the Auto Scaling Group"
   type        = number
-  default     = 1
+  default     = 2
 }
 
 variable "cpu_utilization_threshold" {
