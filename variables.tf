@@ -13,7 +13,7 @@ variable "instance_type" {
 variable "min_size" {
   description = "Minimum number of instances in the Auto Scaling Group"
   type        = number
-  default     = 1
+  default     = 2
 }
 
 variable "max_size" {
